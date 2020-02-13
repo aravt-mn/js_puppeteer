@@ -1,6 +1,6 @@
-# Project Title
+# Javascript Puppeteer
 
-One Paragraph of project description goes here
+Javascript 
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ A step by step series of examples that tell you how to get a development env run
 Say what the step will be
 
 ```
-Give the example
+npm install
 ```
 
 And repeat
@@ -41,7 +41,7 @@ Explain how to run the automated tests for this system
 Explain what these tests test and why
 
 ```
-Give an example
+node crawl.js
 ```
 
 ### And coding style tests
