@@ -36,16 +36,17 @@ const run = (async () => {
 
     // console.dir(data);
     
-    fs.writeFile('test1.htm', data, function (err) {
-        if (err) throw err;
-        console.log('Saved!');
-      });
+    // fs.writeFile('test1.htm', data, function (err) {
+    //     if (err) throw err;
+    //     console.log('Saved!');
+    //   });
 
     const $ = await cheerio.load(await page.content());
-    console.log($.html());
+    // console.log($.html());
+
     // console.log(await $(selector).html();
 
-    fs.writeFile('test1.txt', $.html(), function (err) {
+    fs.writeFile('test1.htm', $.html(), function (err) {
         if (err) throw err;
         console.log('Saved!');
       });
